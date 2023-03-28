@@ -36,7 +36,11 @@ mk_buffer spc_fmt(mk_buffer buff, va_list var)
 	(void)var;
 	return (buff);
 }
-
+/**
+ * is_printable - outputs printable
+ * @i: parameter
+ * Return: 0 (Success)
+ */
 int is_printable(int i)
 {
 	if (i > 32 && i <= 127)

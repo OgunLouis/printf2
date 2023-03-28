@@ -38,4 +38,4 @@ mk_buffer str_fmt(mk_buffer buffer, va_list args)
 
 	buffer.box--;
 	return (buffer);
-
+}
